@@ -1,0 +1,75 @@
+package comp313.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: User
+ *
+ */
+
+@Entity
+@Table(name="USER", schema="COMP313")
+@NamedQuery(name="get.allusers",query="select u from User u")
+
+
+public class User implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+	@Id
+	@Column(name="DEVICEID")
+	private String D_ID;
+	@Column(name="DEVICENAME")
+	private String D_name;
+	@Column(name="LETI")
+	private String leti;
+	@Column(name="LONGI")
+	private String longi;
+
+	
+	public String getD_ID() {
+		return D_ID;
+	}
+
+
+	public void setD_ID(String d_ID) {
+		D_ID = d_ID;
+	}
+
+
+	public String getD_name() {
+		return D_name;
+	}
+
+
+	public void setD_name(String d_name) {
+		D_name = d_name;
+	}
+
+
+	public String getLeti() {
+		return leti;
+	}
+
+
+	public void setLeti(String leti) {
+		this.leti = leti;
+	}
+
+
+	public String getLongi() {
+		return longi;
+	}
+
+
+	public void setLongi(String longi) {
+		this.longi = longi;
+	}
+
+
+	public User() {
+		super();
+	}
+   
+}

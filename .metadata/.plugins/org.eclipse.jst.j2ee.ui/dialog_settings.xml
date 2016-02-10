@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Comp313" key="LASTEARNAME_"/>
+	<list key="J2EE_IMPORT_null">
+		<item value="C:\Users\Jattana\Documents\Semester 3\Java EE\Assignment 3\Asgn3StartupWeb.war"/>
+	</list>
+	<list key="J2EE_IMPORT_EAR">
+		<item value="C:\Users\Jattana\Documents\Semester 3\Java EE\Assingment 5\JagpreetKirandeepElectionEAR.ear"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="WildFly 9.x Runtime"/>
+	</list>
+</section>
