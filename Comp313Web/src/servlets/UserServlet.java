@@ -43,8 +43,9 @@ public class UserServlet extends HttpServlet {
 	if(command.equals("Login")){
 		authenticate=umng.authenticate(uname, pass);
 		if(authenticate){
+			session.setAttribute("currentUser",umng.getUser(uname));
 			request.setAttribute("msg","Login Succesful");
-			RequestDispatcher rd = request.getRequestDispatcher("/error.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("/main.jsp");
 			rd.forward(request, response);
 	
 		}

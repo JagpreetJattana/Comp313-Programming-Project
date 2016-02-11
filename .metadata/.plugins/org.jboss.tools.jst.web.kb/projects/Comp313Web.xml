@@ -124,23 +124,30 @@
   <el>
    <linked-el length="53" name="%0" offset="367" path="%1"/>
    <linked-el length="49" name="%0" offset="357" path="%2"/>
-   <linked-el length="20" name="%3" offset="352" path="%4"/>
-   <linked-el length="53" name="%5" offset="367" path="%1"/>
-   <linked-el length="49" name="%5" offset="357" path="%2"/>
-   <linked-el length="53" name="%6" offset="367" path="%1"/>
-   <linked-el length="49" name="%6" offset="357" path="%2"/>
-   <linked-el length="20" name="%7" offset="352" path="%4"/>
+   <linked-el length="34" name="%3" offset="345" path="%4"/>
+   <linked-el length="20" name="%5" offset="352" path="%6"/>
+   <linked-el length="53" name="%7" offset="367" path="%1"/>
+   <linked-el length="49" name="%7" offset="357" path="%2"/>
+   <linked-el length="34" name="%8" offset="345" path="%4"/>
+   <linked-el length="53" name="%9" offset="367" path="%1"/>
+   <linked-el length="49" name="%9" offset="357" path="%2"/>
+   <linked-el length="20" name="%10" offset="352" path="%6"/>
+   <linked-el length="34" name="%11" offset="345" path="%4"/>
   </el>
  </validation>
  <aliases>
   <alias path="/Comp313Web/WebContent/register.jsp" value="%1"/>
   <alias path="pageContext" value="%0"/>
-  <alias path="/Comp313Web/WebContent/error.jsp" value="%4"/>
-  <alias path="requestScope" value="%3"/>
-  <alias path="pageContext.request" value="%5"/>
+  <alias path="sessionScope.currentUser.f_Name" value="%3"/>
+  <alias path="/Comp313Web/WebContent/main.jsp" value="%4"/>
+  <alias path="/Comp313Web/WebContent/error.jsp" value="%6"/>
+  <alias path="requestScope" value="%5"/>
+  <alias path="pageContext.request" value="%7"/>
+  <alias path="sessionScope" value="%8"/>
   <alias path="/Comp313Web/WebContent/index.jsp" value="%2"/>
-  <alias path="pageContext.request.contextPath" value="%6"/>
-  <alias path="requestScope.msg" value="%7"/>
+  <alias path="pageContext.request.contextPath" value="%9"/>
+  <alias path="requestScope.msg" value="%10"/>
+  <alias path="sessionScope.currentUser" value="%11"/>
  </aliases>
  <includes/>
  <uris/>

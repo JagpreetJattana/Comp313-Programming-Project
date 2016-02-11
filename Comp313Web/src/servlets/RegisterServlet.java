@@ -41,14 +41,14 @@ public class RegisterServlet extends HttpServlet {
 		String userId=request.getParameter("uId");
 		String fname=request.getParameter("fName");
 		String lname=request.getParameter("lName");
-		String pass=request.getParameter("passwd");
-		String cpass=request.getParameter("confirmPasswd");
-		String houseNo=request.getParameter("houseNo");
+		String pass=request.getParameter("password");
+		String cpass=request.getParameter("confirmPassword");
+		String houseNo=request.getParameter("houseNO");
 		String street=request.getParameter("street");
 		String city=request.getParameter("city");
 		String province=request.getParameter("province");
 		String country=request.getParameter("country");
-		String postal=request.getParameter("postal");
+		String postal=request.getParameter("postalCode");
 		String contact=request.getParameter("contact");
 		String email=request.getParameter("eMail");
 		
