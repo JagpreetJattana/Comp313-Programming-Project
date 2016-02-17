@@ -5,6 +5,8 @@ import javax.persistence.*;
 
 /**
  * Entity implementation class for Entity: Device
+
+Getting Device Information
  *
  */
 @Entity
