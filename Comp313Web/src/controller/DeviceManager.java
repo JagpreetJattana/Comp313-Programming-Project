@@ -1,4 +1,6 @@
 package controller;
+import java.util.List;
+
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.persistence.EntityManager;
@@ -64,6 +66,16 @@ public class DeviceManager {
 		enMan=emf.createEntityManager();
 		Device d=enMan.find(Device.class,id);
 		return d;		
+	}
+	
+	public List<Device> deviceByUser(String id){
+		
+		enMan=emf.createEntityManager();
+		Query q=enMan.createNamedQuery("deviceByUser");
+		q.setParameter("usr",id);
+		List <Device> d=q.getResultList();
+		return d;
+
 	}
 
 	

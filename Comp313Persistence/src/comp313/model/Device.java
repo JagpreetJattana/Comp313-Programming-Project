@@ -9,7 +9,9 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name="DEVICE", schema="COMP313")
-@NamedQuery(name="get.alldevices",query="select d from Device d")
+@NamedQueries({
+@NamedQuery(name="get.alldevices",query="select d from Device d"),
+@NamedQuery(name="deviceByUser",query="select d from Device d where d.U_ID=:usr"),})
 
 public class Device implements Serializable {
 

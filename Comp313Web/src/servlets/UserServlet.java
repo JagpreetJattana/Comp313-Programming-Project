@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import controller.DeviceManager;
 import controller.UserManager;
 
 /**
@@ -34,6 +35,7 @@ public class UserServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 	UserManager umng=new UserManager();
+	DeviceManager dmg=new DeviceManager();
 	String uname=request.getParameter("uname");
 	String pass=request.getParameter("pwd");
 	String command=request.getParameter("loginbtn");
@@ -44,6 +46,7 @@ public class UserServlet extends HttpServlet {
 		authenticate=umng.authenticate(uname, pass);
 		if(authenticate){
 			session.setAttribute("currentUser",umng.getUser(uname));
+			session.setAttribute("myDevices",dmg.deviceByUser(uname));
 			request.setAttribute("msg","Login Succesful");
 			RequestDispatcher rd = request.getRequestDispatcher("/main.jsp");
 			rd.forward(request, response);
