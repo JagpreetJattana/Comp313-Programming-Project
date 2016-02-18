@@ -11,7 +11,7 @@ import javax.persistence.Query;
 import comp313.model.Device;
 import comp313.model.User;
 
-
+/*This is controller class for device. It manages all the task about device*/
 
 
 public class DeviceManager {

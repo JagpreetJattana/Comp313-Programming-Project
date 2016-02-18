@@ -9,6 +9,8 @@ import javax.persistence.Query;
 
 import comp313.model.User;
 
+/*This class handles all the operations related to user*/
+
 
 public class UserManager {
 
