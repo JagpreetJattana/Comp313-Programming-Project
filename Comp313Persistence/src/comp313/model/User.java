@@ -5,6 +5,7 @@ import javax.persistence.*;
 
 /**
  * Entity implementation class for Entity: User
+Gets all user Info
  *
  */
 
