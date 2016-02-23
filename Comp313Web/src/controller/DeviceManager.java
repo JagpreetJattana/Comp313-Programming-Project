@@ -11,7 +11,7 @@ import javax.persistence.Query;
 import comp313.model.Device;
 import comp313.model.User;
 
-/*This is controller class for device. It manages all the task about device*/
+//Controller class to handle device operations
 
 
 public class DeviceManager {
@@ -34,6 +34,7 @@ public class DeviceManager {
 	}
 
 
+//method to add new device
 	public void addDevice(Device d){		
 		enMan=emf.createEntityManager();
 		EntityTransaction et = enMan.getTransaction();
@@ -42,7 +43,7 @@ public class DeviceManager {
 		et.commit();
 
 	}
-	
+	//method to remove device
 	public void removeDevice(String id){
 		enMan=emf.createEntityManager();
 		EntityTransaction et=enMan.getTransaction();
@@ -53,6 +54,8 @@ public class DeviceManager {
 		
 	}
 	
+
+//method to update device
 	public void updateDevice(Device d){
 		enMan=emf.createEntityManager();
 		EntityTransaction et = enMan.getTransaction();
