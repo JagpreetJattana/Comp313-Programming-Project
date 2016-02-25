@@ -1,0 +1,54 @@
+[33mcommit b427007636657d6ac22f98555c8939170c6f31bd[m
+Author: surpreet kaur <surpreet kaur>
+Date:   Thu Feb 25 10:40:57 2016 -0500
+
+    changes in entity class
+
+[33mcommit 12319f2d42827e88ba30c50fea9adfce7bdf88d4[m
+Author: inderpal kaur <inderpal kaur>
+Date:   Tue Feb 23 17:09:41 2016 -0500
+
+    added device controller..This closes #6
+
+[33mcommit 8c2d7718ea9b7c9baef8d3c4e2f7ab5826ab44e0[m
+Author: KiranKaur <k.angel117@yahoo.com>
+Date:   Thu Feb 18 11:00:24 2016 -0500
+
+    User authentication mehcanism. This closes #4
+
+[33mcommit f88e4c8822e8e86cac2bfa319bb3184e3096f7f2[m
+Author: jagpreetjattana <jagpreet@hotmail.com>
+Date:   Wed Feb 17 10:42:09 2016 -0500
+
+    added deployment descriptor
+
+[33mcommit d2e9d1726a86f314a383ba786f100cde7621e58c[m
+Merge: a008f03 a4264de
+Author: jagpreetjattana <jagpreet@hotmail.com>
+Date:   Tue Feb 16 23:21:48 2016 -0500
+
+    Merge branch 'DatabaseEntities' of https://github.com/JagpreetJattana/Comp313-Programming-Project
+
+[33mcommit a4264de6d02f57cef7576ae3e8e11440e7d9a0d4[m
+Author: surpreet kaur <surpreet kaur>
+Date:   Wed Feb 17 22:13:19 2016 -0500
+
+    Added DatabaseEntities.This closes #5
+
+[33mcommit a008f03eb2f6ccebaa6c019539e57b5393a97248[m
+Author: jagpreetjattana <jagpreet@hotmail.com>
+Date:   Tue Feb 16 23:21:39 2016 -0500
+
+    Merging Branches
+
+[33mcommit 5659262b55d23284c755fd9443d0d7db8b6616f0[m
+Author: jagpreetjattana <jagpreet@hotmail.com>
+Date:   Thu Feb 11 00:18:15 2016 -0500
+
+    Added authentication mechanism
+
+[33mcommit a42b3c6996f55c8a1864d025e824fbbb9be0171a[m
+Author: jagpreetjattana <jagpreet@hotmail.com>
+Date:   Wed Feb 10 17:43:08 2016 -0500
+
+    Initial Commit

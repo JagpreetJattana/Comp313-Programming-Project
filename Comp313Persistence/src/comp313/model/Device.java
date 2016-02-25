@@ -6,6 +6,7 @@ import javax.persistence.*;
 //Connecting to Database
 /**
  * Entity implementation class for Entity: Device
+Get the ids
 
 Getting Device Information
  *
