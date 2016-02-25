@@ -3,6 +3,7 @@ package comp313.model;
 import java.io.Serializable;
 import javax.persistence.*;
 
+//Connecting to Database
 /**
  * Entity implementation class for Entity: Device
 
