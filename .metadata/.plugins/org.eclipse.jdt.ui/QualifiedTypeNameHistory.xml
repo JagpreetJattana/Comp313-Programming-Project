@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="comp313.model.Device"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="controller.UserManager"/>
 <fullyQualifiedTypeName name="comp313.model.User"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="comp313.model.Device"/>
 <fullyQualifiedTypeName name="controller.DeviceManager"/>
 </qualifiedTypeNameHistroy>

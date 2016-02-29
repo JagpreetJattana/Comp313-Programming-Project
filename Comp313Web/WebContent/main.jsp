@@ -11,8 +11,8 @@
 <h1>Hello ${sessionScope.currentUser.f_Name}</h1>
 <h3>You have following devices:</h3>
  <c:forEach items = "${sessionScope.myDevices}" var="device">
-        	
-            <a>${ device.getD_name()}</a><br></br>
+        	<a href="LocationServlet?id=${device.getD_ID()}">${ device.getD_name()}</a>
+            <a></a><br></br>
         </c:forEach>
 </body>
 </html>
