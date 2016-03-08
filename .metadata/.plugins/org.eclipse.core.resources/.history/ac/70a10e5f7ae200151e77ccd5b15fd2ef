@@ -1,0 +1,19 @@
+package web.api;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
+import controller.UserManager;
+
+@Path("/my/first")
+public class MyApi {
+
+	UserManager usrmng = new UserManager();
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<User> returnTitle(){
+		
+		return "<p>My First Services<p>";
+	}
+	
+}

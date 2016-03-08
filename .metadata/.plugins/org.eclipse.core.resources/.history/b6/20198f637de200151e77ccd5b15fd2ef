@@ -1,0 +1,26 @@
+package web.api;
+
+import java.util.List;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
+import comp313.model.Device;
+import comp313.model.User;
+import controller.DeviceManager;
+import controller.UserManager;
+
+@Path("/my/first")
+public class MyApi {
+
+	UserManager usrmng = new UserManager();
+	DeviceManager dvmn=new DeviceManager();
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Device> returnTitle(){
+		
+		//return "<p>My First Services<p>";
+		return dvmn.deviceByUser("user");
+	}
+	
+}

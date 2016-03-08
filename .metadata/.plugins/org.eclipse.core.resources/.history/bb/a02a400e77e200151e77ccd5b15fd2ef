@@ -1,0 +1,16 @@
+package web.api;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
+@Path("/my/first")
+public class MyApi {
+
+	@GET
+	@Produces(MediaType.TEXT_HTML)
+	public String returnTitle(){
+		
+		return "<p>My First Services<p>";
+	}
+	
+}
